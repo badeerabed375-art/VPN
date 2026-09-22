@@ -1,0 +1,27 @@
+{
+  "project_name": "Apex Suite VPN Pro",
+  "version": 200,
+  "target_device": "Samsung Galaxy A04e",
+  "performance_mode": "ULTRA_PRO",
+  "engine_optimizations": {
+    "wakelock_timeout_ms": 600000,
+    "mtu_size": 1280,
+    "tcp_fast_open": true,
+    "mux_concurrency": 8
+  },
+  "sd_maid_settings": {
+    "auto_clean_on_start": true,
+    "max_cache_limit_mb": 50
+  },
+  "supported_protocols": [
+    "VLESS-REALITY",
+    "VMess",
+    "Trojan",
+    "Shadowsocks",
+    "Hysteria2",
+    "TUIC"
+  ],
+  "languages_supported": [
+    "ar", "en", "fa", "tr", "ru", "es", "id"
+  ]
+}
